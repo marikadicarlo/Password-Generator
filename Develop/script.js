@@ -1,8 +1,15 @@
 // Assignment code here
-
-
-// Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
+var lowercaseChar = "abcdefghijklmnopqrstuvwxyz";
+var uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var numberChar = "0123456789";
+var specialChar = "~`!@#$%^&*()_+-={}[]\:;'<>?,./|";
+var passwordLength;
+var uppercase;
+var lowercase;
+var numbers;
+var specialChars;
+
 
 // Create function for Generate Password
 function generatePassword(){
@@ -11,26 +18,37 @@ function generatePassword(){
 // Prompt user for password criteria
 var promptPass = window.prompt('How many CHARACTERS would you like your password to inlcude?');
 
-  if (promptPass === "" || promptPass === null) {
-  window.alert('You need to choose a length of at least 8 characters and no more than 128 characters! Try again.');
-  return generatePassword();
+  if (passwordLength < 8){
+    window.alert('Password must be a number between 8 - 128 characters!');
+    determineLength();
+    return promptPass();
+  }
+  else if (passwordLength > 128){
+    window.alert('Password must be a number between 8 - 128 characters!');
+    determineLength();
+    return promptPass();
+  }
+  else if (promptPass === "" || promptPass === null) {
+    window.alert('Password must be a number between 8 - 128 characters. Try again!');
+    return generatePassword();
+  }
 }
 
 
-// Alert to confirm including special characters
-var promptPass = window.confirm('Select OK to confirm using special characters.');
- 
+// Create function for user to include uppercase characters
+//var promptPass = window.confirm('Select OK to confirm using special characters.');
+
 
 // Alert to confirm inlcuding numeric characters
-var promptPass = window.confirm('Select OK to confirm using numeric characters.');
+//var promptPass = window.confirm('Select OK to confirm using numeric characters.');
 
 
 // Alert to confirm inlcuding lowercase characters
-var promptPass = window.confirm('Select OK to confirm using lowercase characters.');
+//var promptPass = window.confirm('Select OK to confirm using lowercase characters.');
 
 
 // Alert to confirm including uppercase characters
-var promptPass =  window.confirm('Select OK to confirm using uppercase characters.');
+//var promptPass =  window.confirm('Select OK to confirm using uppercase characters.');
 
 
 
@@ -39,9 +57,9 @@ var promptPass =  window.confirm('Select OK to confirm using uppercase character
 // Generate password based on criteria
 
 // Display password to the page
- return "Password will go here!";
 
-}
+
+
 
 // Write password to the #password input
 function writePassword() {

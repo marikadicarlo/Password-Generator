@@ -6,11 +6,15 @@
 
 ## Password Generator Javascript Challenge
 
-This challenge was to add functions to the Javascript code to allow password to generate based on the users critera they selected.
+This challenge was to add functions, if then statements, and variables to the Javascript code to generate a password based on the users critera they selected. 
 
-This challenge required creating an application that an employee can use to generate a random password based on criteria they've selected.
+This challenge required asking the user:
+How many characters would you like your password to include?
+Asking the user to use special characters, numeric characters, uppercase characters, and lowercase characters.
+Depending on the user's answers, the password generator will provide a random password with the criteria you have selected.
 
-During this challenge, I came across multiple challenges with the Javascript code.
+During this challenge, I came across multiple challenges with the Javascript code. There was starter code provided, which I used to determine what steps needed to be taken next. 
+The generate password button was not working. 
 
 
 
