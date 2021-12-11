@@ -1,8 +1,8 @@
 # Password-Generator - JavaScript Project
 
-![Link to Password Generator Website] (https://marikadicarlo.github.io/Password-Generator/)
+[Link to Password Generator Website] (https://marikadicarlo.github.io/Password-Generator/)
 
-![password-generator] (file:///Users/marikadicarlo/Desktop/projects/Password-Generator/Images/passgen.jpg)
+![passgen](https://user-images.githubusercontent.com/93060442/145658886-21bc5b6e-9581-430a-bb14-67d911449b19.jpg)
 
 ## Password Generator Javascript Challenge
 
