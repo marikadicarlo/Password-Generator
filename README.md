@@ -2,7 +2,7 @@
 
 [Link to Password Generator Website] (https://marikadicarlo.github.io/Password-Generator/)
 
-![Password Generator] (./assets/passwordgen.png)
+[password-generator]()
 
 ## Password Generator Javascript Challenge
 

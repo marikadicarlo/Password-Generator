@@ -45,7 +45,7 @@ console.log('test');
     return "";
   }
   else if (isNaN (passwordPrompt)) {
-    window.alert('Password must be a unmber between 8 -128 characters. Try again!');
+    window.alert('Password must be a unmber between 8 - 128 characters. Try again!');
   }
 
   var specialChar = window.confirm('Select OK to confirm using special characters.');
