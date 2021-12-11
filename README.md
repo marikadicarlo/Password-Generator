@@ -2,20 +2,14 @@
 
 [Link to Password Generator Website] (https://marikadicarlo.github.io/Password-Generator/)
 
-[password-generator]()
+![password-generator](images/passwordgen.jpg)
 
 ## Password Generator Javascript Challenge
 
-This challenge was to add functions, if then statements, and variables to the Javascript code to generate a password based on the users critera they selected. 
+This challenge solves security concerns for weak passwords. The user will be prompted to determine if they would like to include lowercase, uppercase, numbers and special characters. It also prompted the user to determine the length of their password.  
+The user is prompted by questions, which they need to enter specific criteria.
 
-This challenge required asking the user:
-How many characters would you like your password to include?
-Asking the user to use special characters, numeric characters, uppercase characters, and lowercase characters.
-Depending on the user's answers, the password generator will provide a random password with the criteria you have selected.
-
-During this challenge, I came across multiple challenges with the Javascript code. There was starter code provided, which I used to determine what steps needed to be taken next. 
-The generate password button was not working. 
-
+During this challenge, I came across multiple challenges with the Javascript code. There was starter code provided, which I used to determine what steps needed to be taken next. I had in mind what I wanted to achieve but there were many flaws in my code along the way. My biggest issue was creating a function, but not calling it later in the javascript code. After a session with my tutor, he was able to break it down, section by section, and help me realize what I needed to add to make everything work cohesively.
 
 
 ## User Story
@@ -43,3 +37,4 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+
